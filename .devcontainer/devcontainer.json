@@ -1,0 +1,12 @@
+{
+    "name": "Python Devcontainer",
+    "image": "mcr.microsoft.com/devcontainers/python:latest",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python"
+            ]
+        }
+    },
+    "postCreateCommand": "pip install mkdocs-material"
+}
